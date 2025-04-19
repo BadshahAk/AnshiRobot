@@ -99,7 +99,7 @@ STICKER = [
 ####
 
 PM_START_TEXT = """ 
-*❖ʀᴀᴅʜᴇ ʀᴀᴅʜᴇ {} 🦚*︎\n\n╭══════💚═╮\n {}\n╰═💜══════╯\n🤍 ɪ ʟᴏᴠᴇ ᴍᴇ sᴏ ᴍᴜᴄʜ ❤️\n\nтнιѕ вσт σηℓу ƒσя мαηαgємєηт😊\n\n● ᴜรᴇʀร ➥ {}\n● ᴄнᴧᴛร ➥ {}\n\n💚 ᴍᴀᴅᴇ ᴡɪᴛʜ 💖 ʙʏ [Andy](https://t.me/KINGxANAND)*"""
+*❖ нҽγ {}, ᴡєʟϲοϻε ʙᴧʙʏ* ♥︎\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n●ɪ ᴧϻ {}, ᴧиᴅ ɪ ʜᴧѵε sρεcɪᴧʟ ғєατυɾεร.\n\n● ᴜรᴇʀร ➥ {}\n● ᴄнᴧᴛร ➥ {}\n\n❖ *ɪ нᴧνє ϻᴏsᴛ ᴘᴏᴡєʀғᴜʟʟ gʀουρ ϻᴧɴᴧɢᴇᴍᴇɴᴛ + ϻᴜsɪᴄ ʙᴏᴛ ғᴇᴧᴛᴜʀᴇs.*"""
 
 buttons = [
     [
@@ -258,13 +258,23 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.1)
-            lol.edit_text("🤎")
+            lol.edit_text("L")
             time.sleep(0.1)
-            lol.edit_text("🖤")
+            lol.edit_text("Le")
             time.sleep(0.1)
-            lol.edit_text("🩶")
+            lol.edit_text("Leg")
             time.sleep(0.1)
-            lol.edit_text("🩷")
+            lol.edit_text("Lege")
+            time.sleep(0.1)
+            lol.edit_text("Legen")
+            time.sleep(0.1)
+            lol.edit_text("Legend")
+            time.sleep(0.1)
+            lol.edit_text("LegendX")
+            time.sleep(0.1)
+            lol.edit_text("LegendXAn")
+            time.sleep(0.1)
+            lol.edit_text("LegendXAndy")
             time.sleep(0.1)
             lol.edit_text("ʟᴇᴛ's ɢᴏ...♥︎")
             lol.delete()
@@ -463,10 +473,6 @@ def AnshiRobot_Main_Callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(text="˹ ϻᴧηᴧɢє ˼", callback_data="help_back"),
                         InlineKeyboardButton(text="˹ ϻυsɪᴄ ˼", callback_data="Music_")
-                    ],
-                    [
-                        InlineKeyboardButton(text="˹ ꜱᴘᴧϻ ˼", callback_data="Music_roy"),
-                        InlineKeyboardButton(text="˹ ᴧηɪϻє ˼", callback_data="source_") 
                     ],
                     [
                         InlineKeyboardButton(text="⌯ ʜᴏᴍᴇ ⌯", callback_data="Anshi_back")
@@ -1086,7 +1092,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="⌯ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ⌯",
-                            url="https://t.me/AlisaMusicRobot?startgroup=true"
+                            url="https://t.me/AnshiRobot?startgroup=true"
                             )
                        ]
                 ]
@@ -1153,7 +1159,7 @@ def main():
     dispatcher.add_handler(Anshirobot_main_handler)
     dispatcher.add_error_handler(error_callback)
     dispatcher.add_handler(source_callback_handler)
-    LOGGER.info("Using long polling.")
+    LOGGER.info("Legend again back..")
     updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
 
     if len(argv) not in (1, 3, 4):

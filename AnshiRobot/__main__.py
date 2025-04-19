@@ -99,7 +99,7 @@ STICKER = [
 ####
 
 PM_START_TEXT = """ 
-*<blockquote>❖ʀᴀᴅʜᴇ ʀᴀᴅʜᴇ {} 🦚</blockquote>*︎\n\n╭══════💚═╮\n {}\n╰═💜══════╯\n🤍 ɪ ʟᴏᴠᴇ ᴍᴇ sᴏ ᴍᴜᴄʜ ❤️\n\n<blockquote>тнιѕ вσт σηℓу ƒσя мαηαgємєηт😊</blockquote>\n\n<blockquote>● ᴜรᴇʀร ➥ {}</blockquote>\n● ᴄнᴧᴛร ➥ {}\n\n💚 ᴍᴀᴅᴇ ᴡɪᴛʜ 💖 ʙʏ [Andy](https://t.me/KINGxANAND)*"""
+*❖ʀᴀᴅʜᴇ ʀᴀᴅʜᴇ {} 🦚*︎\n\n╭══════💚═╮\n {}\n╰═💜══════╯\n🤍 ɪ ʟᴏᴠᴇ ᴍᴇ sᴏ ᴍᴜᴄʜ ❤️\n\nтнιѕ вσт σηℓу ƒσя мαηαgємєηт😊\n\n● ᴜรᴇʀร ➥ {}\n● ᴄнᴧᴛร ➥ {}\n\n💚 ᴍᴀᴅᴇ ᴡɪᴛʜ 💖 ʙʏ [Andy](https://t.me/KINGxANAND)*"""
 
 buttons = [
     [
@@ -154,7 +154,7 @@ ANSI = [
 ]
 
 
-DONATE_STRING = f"""❅ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @legend_mickey ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the_Incricible ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+DONATE_STRING = f"""❅ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @legend_mickey ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @Unique_society ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -257,20 +257,6 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(0.1)
-            lol.edit_text("❤️")
-            time.sleep(0.1)
-            lol.edit_text("🧡")
-            time.sleep(0.1)
-            lol.edit_text("💛")
-            time.sleep(0.1)
-            lol.edit_text("💚")
-            time.sleep(0.1)
-            lol.edit_text("🩵")
-            time.sleep(0.1)
-            lol.edit_text("💙")
-            time.sleep(0.1)
-            lol.edit_text("💜")
             time.sleep(0.1)
             lol.edit_text("🤎")
             time.sleep(0.1)
@@ -437,7 +423,7 @@ def Anshi_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(text="⌯ ʙᴀᴄᴋ ⌯", callback_data="Anshi_back"),
-                        InlineKeyboardButton(text="˹ sυᴘᴘσʀᴛ ˼", url="https://t.me/the_incricible"),
+                        InlineKeyboardButton(text="˹ sυᴘᴘσʀᴛ ˼", url="https://t.me/Unique_society"),
                     ],
                 ]
             ),
@@ -451,7 +437,7 @@ def Anshi_about_callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(text="⌯ ʙᴀᴄᴋ ⌯", callback_data="Anshi_back"),
                         InlineKeyboardButton(
-                            text="˹ υᴘᴅᴧᴛєs ˼", url=f"https://t.me/the_incricible"
+                            text="˹ υᴘᴅᴧᴛєs ˼", url=f"https://t.me/Unique_society"
                         ),
                     ],
                 ]
